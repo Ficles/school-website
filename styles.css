@@ -106,3 +106,14 @@ footer {
     object-fit: cover;
     z-index: -1;
 }
+
+.contact-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.contact-table th {
+    width: 100px;
+    padding: 10px;
+}
