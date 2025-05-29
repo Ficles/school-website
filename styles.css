@@ -120,3 +120,42 @@ footer {
     width: 100px;
     padding: 10px;
 }
+
+.services-grid {
+    background-color: #909090b9;
+    border-radius: 30px;
+    border: 2px solid crimson;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 80px;
+    row-gap: 20px;
+    padding: 40px;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: min-content;
+}
+
+.services-grid .grid-item {
+    text-align: center;
+    width: 220px;
+    height: 220px;
+}
+
+.services-grid .grid-item img {
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.services-grid .grid-item h3 {
+    font-size: 1.5em;
+    border-bottom: crimson 2px solid;
+    margin-bottom: 10px;
+}
